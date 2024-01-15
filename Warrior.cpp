@@ -1,5 +1,5 @@
 #include "Warrior.h"
 
-Warrior::Warrior() {}
+Warrior::Warrior() { Bravery = true; }
 
 Warrior::~Warrior() {}
