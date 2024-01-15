@@ -7,10 +7,10 @@ public:
   Warrior();
   ~Warrior();
 
-  void SetBravery(bool bravery) { Bravery = true; }
+  void SetBraveryLevel(float level) { Bravery = level; }
 
 private:
-  int WarriorsAge;
-  bool Bravery;
+  int Age;
+  float Bravery;
   std::string Name;
 };
