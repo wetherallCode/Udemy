@@ -1,6 +1,5 @@
 #include "Warrior.h"
 #include <iostream>
-#include <string>
 
 class Object {
 public:
@@ -21,6 +20,7 @@ int main() {
   Object *ptr_to_obj = new Object;
   Actor *ptr_to_actor = new Actor;
   Pawn *ptr_to_pawn = new Pawn;
+  Warrior *Robbie = new Warrior;
 
   Object *ObjectArray[]{ptr_to_actor, ptr_to_actor, ptr_to_pawn};
 
@@ -33,6 +33,7 @@ int main() {
   delete ptr_to_obj;
   delete ptr_to_actor;
   delete ptr_to_pawn;
+  delete Robbie;
 
   return 0;
 }
