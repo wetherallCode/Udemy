@@ -13,4 +13,6 @@ private:
   int Age;
   float Bravery;
   std::string Name;
+  int Rank;
+  bool IsGood = true; // default initial
 };
