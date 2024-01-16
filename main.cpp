@@ -28,7 +28,7 @@ int main() {
     ObjectArray[i]->BeginPlay();
   }
 
-  std::cout << "Changed this line and now I'm going to recommit" << '\n';
+  std::cout << "This is a change" << '\n';
 
   delete ptr_to_obj;
   delete ptr_to_actor;
