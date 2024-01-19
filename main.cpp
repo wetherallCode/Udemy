@@ -29,7 +29,7 @@ int main() {
   }
 
   std::cout << "This is a change" << '\n';
-
+  std::cout << "Does this work" << '\n';
   delete ptr_to_obj;
   delete ptr_to_actor;
   delete ptr_to_pawn;
